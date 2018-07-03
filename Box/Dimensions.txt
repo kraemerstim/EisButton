@@ -1,14 +1,21 @@
 Button Base
-	- Diameter 
-		- Max: 89mm
-		- Min: 80mm
-	- Height: 28mm
+    - Diameter 
+        - Max: 89mm
+        - Min: 80mm
+    - Height: 28mm
 
 Box
-	- Outer Dimensions: 110mm*110mm*53mm
-	- Inner Dimensions: 102mm*102mm*45mm
-	- Hole: 86mm?
+    - Outer Dimensions: 110mm*110mm*53mm
+    - Inner Dimensions: 102mm*102mm*45mm
+    - Hole: 86mm?
 
 Second Layer
-	- Dimensions: 102mm*102mm
-	- distance: 30mm
+    - Dimensions: 102mm*102mm
+    - distance: 30mm
+
+Battery
+    - Dimensions: 30mm*37mm*12mm
+
+NodeMCU
+    - Hole distance 25mm*52mm
+    - Height 14mm
