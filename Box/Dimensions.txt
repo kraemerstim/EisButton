@@ -19,3 +19,6 @@ Battery
 NodeMCU
     - Hole distance 25mm*52mm
     - Height 14mm
+
+Switch
+    - 5mm*13mm
