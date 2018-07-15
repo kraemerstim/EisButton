@@ -2,12 +2,17 @@ Button Base
     - Diameter 
         - Max: 89mm
         - Min: 80mm
+    - Just Button
+        - Diameter: 65mm
+        - Height: 24mm
     - Height: 28mm
 
 Box
     - Outer Dimensions: 110mm*110mm*53mm
     - Inner Dimensions: 102mm*102mm*45mm
-    - Hole: 86mm?
+    - Hole: 
+        - Full Button: 89mm
+        - Just Top: 65mm
 
 Second Layer
     - Dimensions: 102mm*102mm

@@ -14,7 +14,7 @@
    viewBox="0 0 210 375"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="Box.svg">
   <sodipodi:namedview
      id="base"
@@ -23,16 +23,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="422.50079"
-     inkscape:cy="1206.9721"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="353.14917"
+     inkscape:cy="398.19849"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1185"
+     inkscape:current-layer="g4928"
      showgrid="true"
-     inkscape:window-width="1533"
-     inkscape:window-height="845"
-     inkscape:window-x="67"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-object-midpoints="false"
      inkscape:snap-center="true"
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,8 +102,8 @@
        d="m 1,1 h 4 7 v 4 h 6.6 V 1 h 7 v 4 h 6.6 V 1 h 7 v 4 h 6.6 V 1 h 7 v 4 h 6.6 V 1 h 7 V 5 H 73 V 1 h 7 v 4 h 6.6 V 1 h 7 v 4 h 6.6 V 1 h 7 4 v 4 7 h -4 v 6.6 h 4 v 7 h -4 v 6.6 h 4 v 7 h -4 v 6.6 h 4 v 7 h -4 v 6.6 h 4 v 7 h -4 V 73 h 4 v 7 h -4 v 6.6 h 4 v 7 h -4 v 6.6 h 4 v 7 4 h -4 -7 v -4 h -6.6 v 4 h -7 v -4 H 80 v 4 h -7 v -4 h -6.6 v 4 h -7 v -4 h -6.6 v 4 h -7 v -4 h -6.6 v 4 h -7 v -4 h -6.6 v 4 h -7 v -4 H 12 v 4 H 5 1 v -4 -7 H 5 V 93.6 H 1 v -7 H 5 V 80 H 1 V 73 H 5 V 66.4 H 1 v -7 H 5 V 52.8 H 1 v -7 H 5 V 39.2 H 1 v -7 H 5 V 25.6 H 1 v -7 H 5 V 12 H 1 V 5 1" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 98.603264,56.099998 A 42.503265,42.503265 0 0 1 56.099998,98.603264 42.503265,42.503265 0 0 1 13.596733,56.099998 42.503265,42.503265 0 0 1 56.099998,13.596733 42.503265,42.503265 0 0 1 98.603264,56.099998 Z"
+       style="fill:none;fill-opacity:1;stroke:#f80000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 101.1,56.099999 A 45,45 0 0 1 56.100001,101.1 45,45 0 0 1 11.1,56.099999 a 45,45 0 0 1 45.000001,-45 45,45 0 0 1 44.999999,45 z"
        id="path407" />
   </g>
   <g
@@ -218,8 +218,7 @@
          transform="matrix(0.82669922,0,0,0.82669922,38.621116,46.389587)"
          id="text1139"
          style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         aria-label="Eisbutton
-2.0">
+         aria-label="Eisbutton 2.0">
         <path
            inkscape:connector-curvature="0"
            id="path1143"
