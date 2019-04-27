@@ -2,8 +2,9 @@
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
+#include <ESP8266WiFiMulti.h>
 #include "ConnectionDetails.h"
-WiFiClient client;
+ESP8266WiFiMulti wifiMulti;
 
 int inputPin = D2;
 int ledPin = D4;
@@ -11,11 +12,12 @@ int buttonState = 0;
 
 void wifiConnect() {
   Serial.print("Connecting to AP");
-  WiFi.begin(AP_SSID, AP_PASSWORD);
-  while (WiFi.status() != WL_CONNECTED) {
+
+  while (wifiMulti.run() != WL_CONNECTED) {
     delay(1000);
     Serial.print(".");
   }
+
   Serial.println("Connected");
 }
 
@@ -27,6 +29,8 @@ void setup() {
   pinMode(inputPin, INPUT);
   pinMode(ledPin, OUTPUT);
   Serial.println("starting");
+  wifiMulti.addAP(AP1_SSID, AP1_PASSWORD);
+  wifiMulti.addAP(AP2_SSID, AP2_PASSWORD);
   wifiConnect();
 }
 
