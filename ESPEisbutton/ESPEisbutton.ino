@@ -67,23 +67,20 @@ boolean isValidTime(const char* currentTime) {
   return true;
 }
 
-void send_hipchat_notification(boolean isIceTime) {
+void send_chat_notification(boolean isIceTime) {
   HTTPClient http;
   char buf[256];
   if (isIceTime) {
-    snprintf(buf, sizeof buf, "https://cassoftware.hipchat.com/v2/room/%s/notification?auth_token=%s", HIPCHAT_CHANNEL_EIS, HIPCHAT_TOKEN_EIS);
+    snprintf(buf, sizeof buf, "%s/hooks/%s", ROCKET_CHAT_URL, ROCKET_CHAT_WEB_HOOK);
   } else {
-    snprintf(buf, sizeof buf, "https://cassoftware.hipchat.com/v2/room/%s/notification?auth_token=%s", HIPCHAT_CHANNEL_TEST, HIPCHAT_TOKEN_TEST);
+    snprintf(buf, sizeof buf, "%s/hooks/%s", ROCKET_CHAT_URL, ROCKET_CHAT_WEB_HOOK_DEBUG);
   }
-  http.begin(buf, HIPCHAT_THUMBPRINT);
+  http.begin(buf, SERVER_THUMBPRINT);
   http.addHeader("Content-Type", "application/json");
   
   DynamicJsonBuffer jsonBuffer(400);
   JsonObject& root = jsonBuffer.createObject();
-  root["message"] = "(eismann)";
-  root["notify"] = "true";
-  root["message_format"] = "text";
-  root["color"] = "random";
+  root["text"] = ":eis:";
   String buffer;
   root.printTo(buffer);
 
@@ -107,8 +104,8 @@ void loop() {
     const char* current_time = get_current_time().c_str();
     Serial.println(current_time);
     delay(300);
-    send_hipchat_notification(isValidTime(current_time));
-    Serial.println("send to Hipchat");
+    send_chat_notification(isValidTime(current_time));
+    Serial.println("send to Rocket Chat");
     digitalWrite(ledPin, HIGH); 
     delay(10000);
   }
